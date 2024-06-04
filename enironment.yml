@@ -1,0 +1,20 @@
+name: tripleten
+channels:
+  - conda-forge
+  - anaconda
+  - apple
+dependencies:
+  - python=3.10
+  - pip
+  - jupyter
+  - ipykernel
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - tqdm
+  - requests
+  - pip:
+    - catboost
